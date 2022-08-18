@@ -170,6 +170,36 @@ hr {
   margin-right: 30px;
 }
 
+.last-row {
+  margin-bottom: 0;
+}
+
+.my-projects {
+  background-color: #d1e7dd;
+  padding: 2rem;
+}
+
+.my-work-img {
+  width: 290px;
+  margin: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.table>:not(caption)>*>*{
+    padding: 50px;
+}
+
+.project {
+  text-align: left;
+}
+.project-link {
+  font-style: normal;
+  font-size: 20px;
+  font-family: 'Roboto Mono', monospace;
+  margin-bottom: 30px;
+  color: black;
+}
 .bot {
   background-color: #73A9AD;
   padding-top: 30px;
@@ -194,7 +224,7 @@ hr {
 
 .footer-link {
   margin: 20px;
-  color:#F5F0BB;
+  color: #F5F0BB;
   text-decoration: none;
   font-style: normal;
   word-spacing: 200px;
